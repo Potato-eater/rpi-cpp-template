@@ -11,4 +11,4 @@ include_directories(include)
 file(GLOB SOURCES "src/*.cpp")
 
 # Create executable
-add_executable(my_program ${SOURCES})
+add_executable(cool_program ${SOURCES})

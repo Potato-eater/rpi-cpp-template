@@ -1,18 +1,13 @@
 FROM debian:bullseye
 
-# Install required dependencies
 RUN apt update && apt install -y \
     cmake \
     make \
-    gcc \
-    g++ \
     git \
     wget \
-    qemu-user-static \
-    binutils-arm-linux-gnueabihf \
-    g++-arm-linux-gnueabihf \
-    gcc-arm-linux-gnueabihf
+    gcc-aarch64-linux-gnu \
+    g++-aarch64-linux-gnu \
+    binutils-aarch64-linux-gnu
 
-# Set environment variables for cross-compilation
-ENV CC=arm-linux-gnueabihf-gcc
-ENV CXX=arm-linux-gnueabihf-g++
+ENV CC=aarch64-linux-gnu-gcc
+ENV CXX=aarch64-linux-gnu-g++

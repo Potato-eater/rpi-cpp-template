@@ -1,0 +1,1 @@
+/usr/bin/aarch64-linux-gnu-g++ CMakeFiles/cool_program.dir/src/main.cpp.o CMakeFiles/cool_program.dir/src/other.cpp.o -o cool_program 

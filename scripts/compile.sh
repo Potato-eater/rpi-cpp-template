@@ -5,7 +5,7 @@ set -e  # Exit immediately on error
 # Define variables
 IMAGE_NAME="rpi-cross-compiler"
 WORKSPACE="/workspace"
-OUTPUT_BINARY="my_program"
+OUTPUT_BINARY="cool_program"
 
 # Fix path conversion issue in Git Bash
 export MSYS_NO_PATHCONV=1
